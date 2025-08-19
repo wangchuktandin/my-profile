@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Aurum - Bootstrap 4 Ecommerce Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	
+		<section class="header text-center">
+			<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+				<div class="container"><a class="navbar-brand" href="index.html"><img src="images/Logo_Primary.png" class="logo" alt=""> Auction</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-1" aria-controls="navbar-1" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+					<div class="collapse navbar-collapse pull-xs-right justify-content-end" id="navbar-1">
+						<ul class="navbar-nav mt-2 mt-md-0">
+							<li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
+					
+							<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages </a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="index.html">Homepage</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="catalog.html">Catalog</a>
+									<a class="dropdown-item" href="item.html">Item Detail</a>
+									<a class="dropdown-item" href="cart.html">Cart</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="contact.html">Contact</a></div>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i></a>
+								<div class="dropdown-menu dropdown-menu-right dropdown-cart" aria-labelledby="navbarDropdown">
+									<!-- <div class="dropdown-divider"></div>
+									<ul class="shopping-cart-items">
+										<li class="row">
+											<div class="col-3">
+												<img src="images/machine.png" width="60">
+											</div>
+											<div class="col-9">
+												<h6><a href="item.html">Product Name</a></h6>
+												<span class="text-muted">1x</span>
+												<span class="emphasis">$49.00</span></div>
+										</li>
+									</ul> -->
+									
+									<a href="cart.html" class="btn btn-lg btn-full-width btn-primary" style="margin: 0;">View Cart</a></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</section>
+		
+		<section class="featured-block text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 text-center">
+						<div class="product-image mt-3">
+							<img class="img-fluid" src="images/machin1.png">
+						</div>
+						<div class="product-thumbnails"><a href="#">
+							<img class="mt-2 mr-2 img-fluid" src="images/machine.png" ></a>
+							<a href="#">
+								<img class="mt-2 mr-2 img-fluid" src="images/machine.png" ></a>
+							<a href="#">
+								<img class="mt-2 mr-2 img-fluid" src="images/machine.png" ></a>
+							<a href="#">
+								<img class="mt-2 mr-2 img-fluid" src="images/machine.png" ></a>
+							<a href="#">
+							<img class="mt-2 mr-2 img-fluid" src="images/machine.png" ></a></div>
+					</div>
+					<div class="col-md-6 mt-5 mt-md-2 text-center text-md-left">
+						<h2 class="mb-3 mt-0">Product Name</h2>
+						<p class="lead mt-2 mb-3 primary-color">Nu.500,000.00</p>
+						<h5 class="mt-4">Description</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis velit vestibulum massa sollicitudin auctor. Cras ac venenatis orci. Ut consequat, purus ut ultrices ultricies, nisi sem ornare quam, sed ultricies mi nisl sit amet purus.</p>
+						<p>Suspendisse potenti. Nunc in libero luctus, sagittis leo sit amet, volutpat lacus. Quisque a porta risus. Integer aliquet nibh vitae vestibulum accumsan</p>
+						<input type="text" class="form-control mb-4" placeholder="Bid Amount">
+						
+						<!--Quantity: <input type="text" class="form-control quantity mb-4" name="" value="1">-->
+						
+						<a href="#" class="btn btn-full-width btn-lg btn-outline-primary">Place Bid</a></div>
+				</div>
+			</div>
+			</div>
+		</section>
+		
+		<div class="divider"></div>
+	
+		<section class="products text-center">
+			<div class="container">
+				<div class="row">
+					<!-- Related Products Section -->
+					<div class="col-md-9">
+						<h3 class="mb-4">Related Products</h3>
+						<div class="row">
+							<!-- Repeat the product cards as needed -->
+							<div class="col-sm-6 col-md-3 col-product">
+								<figure>
+									<img class="rounded-corners img-fluid" src="images/machine.png" width="240" height="240">
+									<figcaption>
+										<div class="thumb-overlay"><a href="#" title="More Info">
+											<i class="fas fa-search-plus"></i>
+										</a></div>
+									</figcaption>
+								</figure>
+								<h4><a href="#">Product Name</a></h4>
+								<p><span class="emphasis">$19.00</span></p>
+							</div>
+							<!-- Repeat for other products -->
+						</div>
+					</div>
+		
+					<!-- My Bids Section -->
+					<div class="col-md-3">
+						<h3 class="mb-4">My Bids</h3>
+						<div class="row">
+							<!-- Repeat for each bid -->
+							<div class="col-12 col-product">
+								<figure>
+									<img class="rounded-corners img-fluid" src="images/bnb3.jpg" width="240" height="240">
+									<figcaption>
+										<div class="thumb-overlay"><a href="#" title="More Info">
+											<i class="fas fa-search-plus"></i>
+										</a></div>
+									</figcaption>
+								</figure>
+								<h4><a href="#">Product Name</a></h4>
+								<div class="row mt-3">
+									<!-- My Bid Section -->
+									<div class="col-6 text-center" style="background-color: #e0f7fa; padding: 10px; border-radius: 5px;">
+										<h6 class="mb-2"><i class="fas fa-user"></i> My Bid</h6>
+										<p class="emphasis">$19.00</p>
+									</div>
+									<!-- Other Highest Bid Section -->
+									<div class="col-6 text-center" style="background-color: #ffebee; padding: 10px; border-radius: 5px;">
+										<h6 class="mb-2"><i class="fas fa-trophy"></i>Highest Bid</h6>
+										<p class="emphasis">$25.00</p>
+									</div>
+								</div>
+
+								<div class="row mt-3">
+									<!-- Active Bidders Section -->
+									<div class="col-12 text-center" style="background-color: #f0f4c3; padding: 10px; border-radius: 5px;">
+										<h6 class="mb-2"><i class="fas fa-users"></i> Active Bidders</h6>
+										<p class="emphasis">12</p>
+									</div>
+								</div>
+
+							</div>
+							<!-- Repeat for other bids -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+
+		
+		
+		<div class="divider"></div>
+		
+		<!-- <section class="cta text-center">
+			<div class="container">
+				<h3 class="mt-0 mb-4">Sign up now to save 10% on your first order</h3>
+				<form class="subscribe">
+					<div class="form-group row pt-3">
+						<div class="col-sm-8 mb-3">
+							<input type="text" class="form-control" id="inputName" placeholder="Your Name">
+						</div>
+						<div class="col-sm-4">
+							<button type="submit" class="btn btn-lg btn-outline-primary">Sign me up</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section> -->
+		
+		<footer class="footer">
+			
+			<div class="container-fluid">
+				<div class="divider"></div>
+			</div>
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 text-center text-md-left mt-2 mb-3 pt-1">
+						<p class="copyright">Copyright &copy; Developed by <a href="https://medialoot.com">BNB</a>.</p>
+					</div>
+					<!-- <div class="col-md-6 text-center text-md-right mb-4">
+						<ul class="social">
+							<li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" title="Google+"><i class="fab fa-google"></i></a></li>
+							<li><a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+							<li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+							<div class="clear"></div>
+						</ul>
+					</div> -->
+				</div>
+			</div>
+		</footer>
+						
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		
+	</body>
+</html>
